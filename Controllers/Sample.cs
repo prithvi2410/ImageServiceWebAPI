@@ -8,8 +8,13 @@ namespace WebApiSample.Controllers;
 public class SampleController : ControllerBase
 {
      [HttpPost]
-    public String Upload(IFormFile postedFile)
+    public String Upload(IFormFile? postedFile)
     {
+        if(postedFile==null)
+        {
+            return "please insert an image";
+        }
+
         byte[] imageData;
         using(BinaryReader reader = new BinaryReader(postedFile.OpenReadStream()))
         {

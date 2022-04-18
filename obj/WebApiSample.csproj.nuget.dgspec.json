@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WebApiSample\\WebApiSample.csproj": {}
+    "E:\\Courses\\ImageServiceWebAPI\\ImageServiceWebAPI\\WebApiSample.csproj": {}
   },
   "projects": {
-    "D:\\WebApiSample\\WebApiSample.csproj": {
+    "E:\\Courses\\ImageServiceWebAPI\\ImageServiceWebAPI\\WebApiSample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WebApiSample\\WebApiSample.csproj",
+        "projectUniqueName": "E:\\Courses\\ImageServiceWebAPI\\ImageServiceWebAPI\\WebApiSample.csproj",
         "projectName": "WebApiSample",
-        "projectPath": "D:\\WebApiSample\\WebApiSample.csproj",
-        "packagesPath": "C:\\Users\\iswarya.mothi\\.nuget\\packages\\",
-        "outputPath": "D:\\WebApiSample\\obj\\",
+        "projectPath": "E:\\Courses\\ImageServiceWebAPI\\ImageServiceWebAPI\\WebApiSample.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "E:\\Courses\\ImageServiceWebAPI\\ImageServiceWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\iswarya.mothi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
